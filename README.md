@@ -12,7 +12,7 @@ This repository contains code developed to evaluate $(a, a+b, b)$ webs.
 		* lines.txt, which translates the bracket matchings into $(a+b,a+b)$-tangle matchings. This will be used later to geometrically evaluate each resolution of the Jones_Wenzl $a+b$.
 * Now execute the GUI with `python3 gui_jw.py`
 	* Draw $a$ loops on the left, and $b$ loops on the right.
-	* Pressing "2" to switch to special-points mode, mark the $2(a+b) $ points in order (go along the bottom row left-to-right first, then the top row right-to-left). These $2(a+b)$ points form the Jones-Wenzl $a+b$. 
+	* Pressing "2" to switch to special-points mode, mark the $2(a+b)$ points in order (go along the bottom row left-to-right first, then the top row right-to-left). These $2(a+b)$ points form the Jones-Wenzl $a+b$. 
 	* Now press "3" to switch to puncture mode, and input the two punctures. 
 	* Finally, save the file using `Control+J`
 * Finally, open `T_{n,n}-Calc.py`. Navigate to the part of the file called `HARDCODE LAND`. 
