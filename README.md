@@ -9,7 +9,7 @@ This repository contains code developed to evaluate (a, a+b, b) webs.
 * after compiling Main.java with `javac Main.java`, run `java Main`.
 	* This takes in the bracket matchings in output.txt and generates
 		* evaluations.txt, which uses the algorithm of Morrison [Mor15] to find the coefficients of each tangle diagram in the Jones-Wenzl $a+b$; and
-		* lines.txt, which consists of the bracket matchings used to 
+		* lines.txt, which translates the bracket matchings into $(a+b,a+b)$-tangle matchings. This will be used later to geometrically evaluate eaxh resolution of the Jones_Wenzl $a+b$.
 * Now execute the GUI with `python3 gui_jw.py`
 	* Draw $a$ loops on the left, and $b$ loops on the right.
 	* Pressing "2" to switch to special-points mode, mark the $2(a+b) $ points in order (go along the bottom row left-to-right first, then the top row right-to-left). These $2(a+b)$ points form the Jones-Wenzl $a+b$. 
@@ -21,3 +21,6 @@ This repository contains code developed to evaluate (a, a+b, b) webs.
 	* Input `evaluations.txt` as `file_path3`
 	* Scrolling a bit further down, to the second `HARDCODE` section, input the value of $q$ at which you would like to evaluate the $(a, a+b, b)$-webs.
 * The program will output simplified expressions for the numerator and denominator of the evaluation of the $(a, a+b, b)$-webs in the monomial basis.
+
+There are quite a few improvements that can be made to increase the
+computational speed of the program. This was sufficient for our purposes, though.
