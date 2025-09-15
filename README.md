@@ -21,6 +21,11 @@ This repository contains code developed to evaluate $(a, a+b, b)$ webs.
 	* Input `evaluations.txt` as `file_path3`
 	* Scrolling a bit further down, to the second `HARDCODE` section, input the value of $q$ at which you would like to evaluate the $(a, a+b, b)$-webs.
 * The program will output simplified expressions for the numerator and denominator of the evaluation of the $(a, a+b, b)$-webs in the monomial basis.
+* The winding number algorithm is due to Alciatore and Miranda [AM]
 
 There are quite a few improvements that can be made to increase the
 computational speed of the program. This was sufficient for our purposes, though.
+
+## References:
+* [Mor15] Scott Morrison. A formula for the Jones-Wenzl Projections.2 March 2015. <https://arxiv.org/pdf/1503.00384>.
+* [AM] David Alciatore and Rick Miranda. A Winding Number and Point-in-Polygon Algorithm. <https://www.engr.colostate.edu/~dga/documents/papers/point_in_polygon.pdf>.
